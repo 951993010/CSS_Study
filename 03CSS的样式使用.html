@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>css的样式使用</title>
+
+		<!--声明css代码域-->
+		<style type="text/css">
+			/*添加网页背景图*/
+			body{
+				background-image:url(../HTML/项目/img/01.jpg);/*添加背景图片*/
+				background-repeat：no-repeat;/*设置图片不重复*/
+				background-size:cover;/*设置图片平铺*/
+			
+			}
+			/*使用标签选择器*/
+			table{
+				/*border:solid 1px;
+				border-radius:20px;*/
+				background-image:url(abc.jpg);/*设置表格背景图*/
+			}
+			/*td设置*/
+			td{
+				background-color:#7F34495E;/*设置背景色*/
+				width:200px;/*设置宽*/
+				border:solid 5px #AEB6BF;/*设置背景框大小及其颜色*/
+				border-radius:20px;	/*设置圆角*/
+				text-align:center; /*设置文本位置*/
+				color:white;/*设置文本颜色*/
+				font-weight:bold;/*设置文本加粗*/
+				letter-spacing:10px;/*设置字体间距*/
+			}
+			/*设置table的行高*/
+			tr{
+				height:40px;
+				
+			}
+/***************************************************************************************/
+			ul{
+				background-color:white;
+				height:50px;
+			}
+			li{
+				list-style-type:none;/*去除li的标识*/
+				/*display:inline;*/
+				float:left;/*设置菜单左悬浮*/
+			}
+			li a{
+				color:black;
+				text-decoration:none;/*设置超链接去除下划线*/
+				font-weight:bold;/*设置文本加粗*/
+				font-size:20px;
+				margin-left:20px;
+				position:relative;
+				top:10px;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<h3>css的样式使用</h3>
+		<hr />
+		<table>
+			<tr>
+				<td>姓名</td>
+				<td>性别</td>
+				<td>爱好</td>
+			</tr>
+			<tr>
+				<td>张三</td>
+				<td>男</td>
+				<td>唱歌</td>
+			</tr>
+			<tr>
+				<td>李四</td>
+				<td>男</td>
+				<td>跳舞</td>
+			</tr>
+		</table>
+		<hr />
+		<ul>
+			<li><a href="">首页</a></li>
+			<li><a href="">直播</a></li>
+			<li><a href="">画友</a></li>
+			<li><a href="">漫画</a></li>
+		</ul>
+	</body>
+	
+</html>
